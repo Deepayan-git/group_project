@@ -6155,13 +6155,3 @@
 }
 )();
 //# sourceMappingURL=theme.bundle.js.map
-//# sourceMappingURL=theme.bundle.js.map
-function changeStatus(selectElement) {
-    if (selectElement.value === "not-done") {
-        selectElement.className = "status-dropdown red";
-    } else if (selectElement.value === "completed") {
-        selectElement.className = "status-dropdown green";
-    } else if (selectElement.value === "revision") {
-        selectElement.className = "status-dropdown yellow";
-    }
-}
